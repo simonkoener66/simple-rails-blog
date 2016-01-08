@@ -1,0 +1,24 @@
+<table class="table table-responsive">
+	<thead>
+		<tr>
+			<th>Title</th>
+			<th>Created Time</th>
+			<th colspan="2">Text</th>
+		</tr>
+	</thead>
+
+	<tbody>
+		<% @articles.each do |article| %>
+		<tr>
+			<td><%= link_to article.title, article_path(article) %></td>
+			<td><%= article.created_time %></td>
+			<td><%= article.body %></td>
+			<td><%= link_to 'Edit', edit_article_path(article), class:'btn btn-default' %>
+				<%= link_to 'Delete', article_path(article), class:'btn btn-danger',
+				method: :delete,
+				data: { confirm: 'Are you sure to delete this post?'} %></td>
+		</tr>
+		<% end %>
+	</tbody>
+
+</table>
