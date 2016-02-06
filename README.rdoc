@@ -3,4 +3,4 @@
 This is a simple blog web app developed with Ruby on Rails :)
 Developed with Ruby 2.3.0 / Rails 4.2.5.
 
-Built by Simon Koener
+Built and uploaded by Simon Koener
