@@ -1,6 +1,6 @@
 == README
 
-This is a simple blog web app developed with Ruby on Rails :)
+Simple blog built with Ruby on Rails for demonstration :)
 Developed with Ruby 2.3.0 / Rails 4.2.5.
 
 Built and uploaded by Simon Koener
